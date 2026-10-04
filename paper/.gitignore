@@ -1,4 +1,8 @@
-# LaTeX build artifacts (regenerate with pdflatex)
+# arXiv preview PDFs (regenerated on each submission)
+document.pdf
+arxiv_submission_preview.pdf
+
+# LaTeX build artifacts
 *.aux
 *.bbl
 *.blg
@@ -8,3 +12,5 @@
 *.toc
 *.fls
 *.fdb_latexmk
+document.pdf
+arxiv_submission_preview.pdf
