@@ -81,3 +81,20 @@ diffusion-hilbert/
     ├── inner_product_preservation_3q.png
     ├── training_curves.png
     └── training_curves_3q.png
+
+## Paper
+
+**arXiv preprint:** *(pending — will be updated when assigned)*
+
+Submitted to arXiv. The repository contains the full source:
+
+- [`paper/main.tex`](paper/main.tex) — LaTeX source
+- [`paper/refs.bib`](paper/refs.bib) — bibliography
+- Figures in [`paper/`](paper/)
+
+The paper reports four findings:
+
+1. The learned mapping is approximately linear ($R^2 = 0.91$)
+2. The learned primary direction is target-driven (cos $0.989$ vs $0.002$)
+3. The learned map requires all singular directions (rank-4)
+4. Kernel ridge regression outperforms tuned MLPs ($0.0144$ vs $0.0197$)
